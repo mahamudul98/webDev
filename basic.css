@@ -1,0 +1,105 @@
+h1 {
+    border: 5px outset #ffa600;
+    background-color: lightblue;    
+    text-align: center;
+}
+
+
+p{
+    text-align: center;
+    text-decoration: none;
+    font-size:medium;
+    font-weight: 800;
+    font-family: sans-serif;
+    background-color: aquamarine;
+
+}
+#myp{
+    align-items: center;
+}
+
+#sad{
+    color: #ffa600;
+}
+.new{
+    border: 7px outset mediumspringgreen;
+    text-align: center;
+    margin: 30px 50px;
+    border-radius: 50px;
+}
+
+a:active{
+    background-color: aqua;
+}
+.roman{
+    color: red;
+}
+.abr{
+    text-align: center;
+    font-size: large;
+    font-style: bold;
+    color: hotpink;
+}
+#para{
+    border: 5px outset purple;
+    margin: 20px;
+    background-color: floralwhite;
+    border-radius: 60px;
+    padding: 30px 40px;
+}
+.htm{
+    margin: 20px;
+    border-radius: 50px;
+    padding-top: 
+    10px;
+    padding-bottom: 10px;
+    background-color: azure;
+}
+
+
+.htm:hover{
+    color:mediumspringgreen;
+    }
+#para:hover{
+    background-color: sandybrown;
+}    
+li:nth-child(2n+1) {
+    background-color: aqua;
+}
+
+input:focus{
+    font-weight: 20px;
+    color: aqua;
+}
+
+h4::after{
+    content: "-me limon";
+}
+h2::before{
+    content: "Limon--";
+}
+
+h2::first-letter{
+    font-size: 200%;
+    color: #8A2BE2;
+}
+#para::first-letter{
+    font-size: 200%;
+    color: #8A2BE2;
+}
+
+::marker{
+    color: #ffa600;
+    font-size: 150%;
+}
+::selection{
+    color: red;
+    background-color: yellow;
+}
+h5{
+    position: relative;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
